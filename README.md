@@ -14,9 +14,10 @@ For building "", we have created an LSTM(Long short-term memory) machine learnin
 The main challenges we faced include a lack of a ready dataset for emergency signs, the difficulty in decoding signs which were not just static, but involving continuous movement, and the obstacle in messaging the emergency service contact number directly from the website.
 
 ## Accomplishments that we're proud of
-
+The ML model used can efficiently detect the ASl signs, with an accuracy of "%". Just showing the sign, a person can directly contact the emergency sevice in a matter of second..
 
 ## What we learned
 
-## What's next for Untitled
 
+## What's next for Untitled
+The next step for "" has to be the inclusion of many more dynamic ASL signs, making "" a leading solution for accessibility issues our fellow humans face.
