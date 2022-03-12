@@ -8,11 +8,15 @@ Across the globe, emergency services rely on a telephone/mobile number/hotline, 
 The website, named "", interprets ASL components for "accident","ambulance","breathe","emergency","fire" and "help" which are basic signs which can be instrumental in any catastrophic situations. On detecting a specific sign, a message is sent to the emergency service contact number, including the name of the emergency faced. Relying on the Text-to-911 functionality,"this website" allows emergency services to be requested, with just the ASL signs shown by the affected.
 
 ## How we built it
+For building "", we have created an LSTM(Long short-term memory) machine learning model, utilizing a custom dataset for the ASL signs "accident", "ambulance", "breathe", "emergency","fire" and "help". The model yielded "%" accuracy with MediaPipe solutions for detecting hand signs. Deployed on the "" website using Flask......
 
 ## Challenges we ran into
+The main challenges we faced include a lack of a ready dataset for emergency signs, the difficulty in decoding signs which were not just static, but involving continuous movement, and the obstacle in messaging the emergency service contact number directly from the website.
 
 ## Accomplishments that we're proud of
+
 
 ## What we learned
 
 ## What's next for Untitled
+
