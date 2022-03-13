@@ -10,7 +10,7 @@ Across the globe, emergency services rely on a telephone/mobile number/hotline, 
 The website, named **With You-Emergency Buddy**, interprets ASL components for "accident","ambulance","breathe","emergency","fire" and "help" which are basic signs which can be instrumental in any catastrophic situations. On detecting a specific sign, a message is sent to the emergency service contact number, including the name of the emergency faced, along with location coordinates, IP address of the device and Region. Relying on the Text-to-911 functionality,**With You** allows emergency services to be requested, with just the ASL signs shown by the affected.
 
 ## How we built it
-For building **With You**, we have created an LSTM(Long short-term memory) machine learning model, utilizing a custom dataset for the ASL signs "accident", "ambulance", "breathe", "emergency","fire" and "help". The model yielded **98%** accuracy with MediaPipe solutions for detecting hand signs. Deployed on the **With You-Emergency Buddy** website using Flask.
+For building **With You**, we have created an LSTM(Long short-term memory) machine learning model, utilizing a custom dataset for the ASL signs "accident", "ambulance", "breathe", "emergency","fire" and "help". The model yielded **98%** accuracy with MediaPipe solutions for detecting hand signs. Deployed on the **With You-Emergency Buddy** website using Flask. The SMS that will be sent to the emergency service contact number is done using fast2sms Dev API which according to the sign recognized will send messages. The location of incident along with the ip address of device is fetched using geolocation library.
 
 ## Challenges we ran into
 The main challenges we faced included a lack of a ready dataset for emergency signs, the difficulty in decoding signs which were not just static, but involving continuous movement, and the obstacle in messaging the emergency service contact number directly from the website.
@@ -27,7 +27,7 @@ The ML model used can efficiently detect the ASl signs, with an accuracy of **98
 The next step for **With You** has to be the inclusion of many more dynamic ASL signs, making **With You** a leading solution for accessibility issues our fellow humans face. Deploying the same model on an Android/ IOS application will also be a part of **With You**'s future scope.
 
 ## How to use the Website
-1) Click on the "Detect Sign" button. 
+1) Click on the **Detect Sign** button. 
 2) Wait for 2-3 minutes for the camera to be switched on.
 3) Once switched on, place your hands in front of the camera and look for the hand tracker to appear on your hand.
 4) Show the emergency sign. Detected sign will be shown on the top of the frame.
