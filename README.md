@@ -1,5 +1,7 @@
 # YPStem
 
+![image](Hackathon.png)
+
 ## Inspiration:
 In a world rapidly moving towards inclusivity in all domains, features allowing accessibility to the deaf and hard of hearing community gain a lot of importance. When the features are related to emergency services, the services are requirements, not a luxury.
 Across the globe, emergency services rely on a telephone/mobile number/hotline, to be contacted by the affected in difficult situations. People using SL(Sign Language) as their means of communication lose their right to these fundamental services. The inspiration for this project,thus, comes from the necessity of providing access to emergency services during times of crisis.
