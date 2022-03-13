@@ -25,3 +25,10 @@ The ML model used can efficiently detect the ASl signs, with an accuracy of **98
 
 ## What's next for With You - Emergency Buddy
 The next step for **With You** has to be the inclusion of many more dynamic ASL signs, making **With You** a leading solution for accessibility issues our fellow humans face. Deploying the same model on an Android/ IOS application will also be a part of **With You**'s future scope.
+
+## How to use the Website
+1) Click on the "Detect Sign" button. 
+2) Wait for 2-3 minutes for the camera to be switched on.
+3) Once switched on, place your hands in front of the camera and look for the hand tracker to appear on your hand.
+4) Show the emergency sign. Detected sign will be shown on the top of the frame.
+5) To exit camera, press 'Q'on your keyboard. Message will be sent to emergency contact number immediately.
